@@ -14,6 +14,10 @@
 		1DBB24961D501D9D009FEBBC /* HelloCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB24941D501D9D009FEBBC /* HelloCoreData.xcdatamodeld */; };
 		1DBB24981D501D9D009FEBBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB24971D501D9D009FEBBC /* Assets.xcassets */; };
 		1DBB249B1D501D9D009FEBBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB24991D501D9D009FEBBC /* LaunchScreen.storyboard */; };
+		1DBB24A61D501F63009FEBBC /* Color+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB24A31D501F63009FEBBC /* Color+CoreDataProperties.m */; };
+		1DBB24A71D501F63009FEBBC /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB24A51D501F63009FEBBC /* Color.m */; };
+		1DBB24AE1D50238D009FEBBC /* ColorsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB24AC1D50238D009FEBBC /* ColorsListViewController.m */; };
+		1DBB24AF1D50238D009FEBBC /* ColorsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB24AD1D50238D009FEBBC /* ColorsListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,13 @@
 		1DBB24971D501D9D009FEBBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DBB249A1D501D9D009FEBBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DBB249C1D501D9D009FEBBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBB24A21D501F63009FEBBC /* Color+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Color+CoreDataProperties.h"; path = "../Color+CoreDataProperties.h"; sourceTree = "<group>"; };
+		1DBB24A31D501F63009FEBBC /* Color+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Color+CoreDataProperties.m"; path = "../Color+CoreDataProperties.m"; sourceTree = "<group>"; };
+		1DBB24A41D501F63009FEBBC /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Color.h; path = ../Color.h; sourceTree = "<group>"; };
+		1DBB24A51D501F63009FEBBC /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Color.m; path = ../Color.m; sourceTree = "<group>"; };
+		1DBB24AB1D50238D009FEBBC /* ColorsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorsListViewController.h; sourceTree = "<group>"; };
+		1DBB24AC1D50238D009FEBBC /* ColorsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorsListViewController.m; sourceTree = "<group>"; };
+		1DBB24AD1D50238D009FEBBC /* ColorsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorsListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,13 @@
 		1DBB24871D501D9D009FEBBC /* HelloCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				1DBB24AB1D50238D009FEBBC /* ColorsListViewController.h */,
+				1DBB24AC1D50238D009FEBBC /* ColorsListViewController.m */,
+				1DBB24AD1D50238D009FEBBC /* ColorsListViewController.xib */,
+				1DBB24A21D501F63009FEBBC /* Color+CoreDataProperties.h */,
+				1DBB24A31D501F63009FEBBC /* Color+CoreDataProperties.m */,
+				1DBB24A41D501F63009FEBBC /* Color.h */,
+				1DBB24A51D501F63009FEBBC /* Color.m */,
 				1DBB248B1D501D9D009FEBBC /* AppDelegate.h */,
 				1DBB248C1D501D9D009FEBBC /* AppDelegate.m */,
 				1DBB248E1D501D9D009FEBBC /* ViewController.h */,
@@ -141,6 +159,7 @@
 			files = (
 				1DBB249B1D501D9D009FEBBC /* LaunchScreen.storyboard in Resources */,
 				1DBB24981D501D9D009FEBBC /* Assets.xcassets in Resources */,
+				1DBB24AF1D50238D009FEBBC /* ColorsListViewController.xib in Resources */,
 				1DBB24931D501D9D009FEBBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,8 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DBB24A61D501F63009FEBBC /* Color+CoreDataProperties.m in Sources */,
 				1DBB24901D501D9D009FEBBC /* ViewController.m in Sources */,
 				1DBB24961D501D9D009FEBBC /* HelloCoreData.xcdatamodeld in Sources */,
+				1DBB24A71D501F63009FEBBC /* Color.m in Sources */,
+				1DBB24AE1D50238D009FEBBC /* ColorsListViewController.m in Sources */,
 				1DBB248D1D501D9D009FEBBC /* AppDelegate.m in Sources */,
 				1DBB248A1D501D9D009FEBBC /* main.m in Sources */,
 			);
